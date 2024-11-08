@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <!-- Fixed Header/Navigation -->
+    <header class="fixed top-0 w-full bg-white/80 backdrop-blur-sm shadow-sm z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo/Name -->
+                <a href="index.html" class="text-xl font-bold text-gray-800 hover:text-gray-600 transition-colors">
+                    Presentations
+                </a>
+
+                <!-- Desktop Menu -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="index.html#home" class="text-gray-600 hover:text-gray-900 transition-colors font-medium">Home</a>
+                    <a href="about.html" class="text-gray-600 hover:text-gray-900 transition-colors font-medium">About Me</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-gray-900 transition-colors font-medium">Contact</a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden p-2 rounded-lg hover:bg-gray-100" id="mobile-menu-button">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="mt-32"></main>
+        <div class="max-w-7xl mx-auto px-4 w-1/2">
+            <div class="flex items-center space-x-8"></div>
+                <img src="https://media.cleanshot.cloud/media/33029/F8eUbvcm4EWT8zpdj7lnK0WSEj1Rsgp3CnZtnuK8.jpeg?Expires=1731067602&Signature=cHpqnrYn-FbVCPoJDUtk0pG2iFqK1vsmgLrL58BtNaPcTu1BeNhpsjyH5GeTqkgABMdqnp26hbYt29dP6cufLIs86vSizj-Vo4YGFdftoqABKzFa4fVGCXZXPIaFZrEby1oXGBTyS7moxGvuSoELi6ozvMvpjsp3KyyJL~yLf08Cn8F9g9UvEu9cjEPMN61W2hujYOUKfu1VxcnMVVbjorYSOFotKf3o2-AzL7zBkxO9xX12czZEEiQw~Xyt9eANWMeRmRhe-KVi8hymtuRn2kkOrHCYOrSDYPsV9vTZlUAl0WUtd6sx32KIRtLK4qj~N6HPdJg3FlTP3CZJGTMLEQ__&Key-Pair-Id=K269JMAT9ZF4GZ" alt="Author Photo" class="w-64 h-64 rounded-lg object-cover">
+                <div style="color:blue"></div>
+                    <p class="mt-4 text-gray-600 text-xl leading-relaxed">I am a writer designer. Another way to say this: I’m a UX designer who knows how to write.
+
+                        I have been a writer in tech since 2012, and a UX designer since 2017. I’ve worked for Yelp, Asana, and Google, and I have worked as a consultant for many startups and VC firms. I currently work as a lead content designer for Zendesk where I focus on innovation and unified experience.
+                        
+                        I am the author of microprinciples, a weekly newsletter, and co-author of the Smallish Book, an ongoing collaboration about language and design.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Simple JavaScript for mobile menu toggle -->
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>

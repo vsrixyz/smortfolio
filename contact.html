@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <!-- Fixed Header/Navigation -->
+    <header class="fixed top-0 w-full bg-white/80 backdrop-blur-sm shadow-sm z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo/Name -->
+                <a href="index.html" class="text-xl font-bold text-gray-800 hover:text-gray-600 transition-colors">
+                    Presentations
+                </a>
+
+                <!-- Desktop Menu -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="index.html#home" class="text-gray-600 hover:text-gray-900 transition-colors font-medium">Home</a>
+                    <a href="about.html" class="text-gray-600 hover:text-gray-900 transition-colors font-medium">About Me</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-gray-900 transition-colors font-medium">Contact</a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden p-2 rounded-lg hover:bg-gray-100" id="mobile-menu-button">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="mt-20">
+        <div class="max-w-7xl mx-auto px-4">
+            <h1 class="text-3xl font-bold text-gray-800">Contact</h1>
+            <p class="mt-4 text-gray-600">This is the contact page. Add your content here.</p>
+        </div>
+    </main>
+
+    <!-- Simple JavaScript for mobile menu toggle -->
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
