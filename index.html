@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Presentations</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.js"></script>
+</head>
+<body class="bg-gray-100">
+    <!-- Fixed Header/Navigation -->
+    <header class="fixed top-0 w-full bg-white/80 backdrop-blur-sm shadow-sm z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo/Name -->
+                <a href="#" class="text-xl font-bold text-gray-800 hover:text-gray-600 transition-colors">
+                    Presentations
+                </a>
+
+                <!-- Desktop Menu -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-gray-600 hover:text-gray-900 transition-colors font-medium">Home</a>
+                    <a href="#about" class="text-gray-600 hover:text-gray-900 transition-colors font-medium">About Me</a>
+                    <a href="#contact" class="text-gray-600 hover:text-gray-900 transition-colors font-medium">Contact</a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden p-2 rounded-lg hover:bg-gray-100" id="mobile-menu-button">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden" id="mobile-menu">
+            <div class="px-4 py-3 space-y-1 bg-white shadow-lg">
+                <a href="#home" class="block px-3 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-md">Home</a>
+                <a href="#about" class="block px-3 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-md">About Me</a>
+                <a href="#contact" class="block px-3 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-md">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Presentation Grid -->
+    <main class="pt-24 px-4 pb-12">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Presentation 1 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <div class="aspect-w-16 aspect-h-9">
+                        <img src="/api/placeholder/800/450" alt="Presentation 1" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <p class="text-sm text-gray-500">Placeholder for iframe 1</p>
+                    </div>
+                </div>
+
+                <!-- Presentation 2 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <div class="aspect-w-16 aspect-h-9">
+                        <img src="/api/placeholder/800/450" alt="Presentation 2" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <p class="text-sm text-gray-500">Placeholder for iframe 2</p>
+                    </div>
+                </div>
+
+                <!-- Presentation 3 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <div class="aspect-w-16 aspect-h-9">
+                        <img src="/api/placeholder/800/450" alt="Presentation 3" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <p class="text-sm text-gray-500">Placeholder for iframe 3</p>
+                    </div>
+                </div>
+
+                <!-- Presentation 4 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <div class="aspect-w-16 aspect-h-9">
+                        <img src="/api/placeholder/800/450" alt="Presentation 4" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <p class="text-sm text-gray-500">Placeholder for iframe 4</p>
+                    </div>
+                </div>
+
+                <!-- Presentation 5 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <div class="aspect-w-16 aspect-h-9">
+                        <img src="/api/placeholder/800/450" alt="Presentation 5" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <p class="text-sm text-gray-500">Placeholder for iframe 5</p>
+                    </div>
+                </div>
+
+                <!-- Presentation 6 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <div class="aspect-w-16 aspect-h-9">
+                        <img src="/api/placeholder/800/450" alt="Presentation 6" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <p class="text-sm text-gray-500">Placeholder for iframe 6</p>
+                    </div>
+                </div>
+
+                <!-- Presentation 7 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <div class="aspect-w-16 aspect-h-9">
+                        <img src="/api/placeholder/800/450" alt="Presentation 7" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <p class="text-sm text-gray-500">Placeholder for iframe 7</p>
+                    </div>
+                </div>
+
+                <!-- Presentation 8 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <div class="aspect-w-16 aspect-h-9">
+                        <img src="/api/placeholder/800/450" alt="Presentation 8" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <p class="text-sm text-gray-500">Placeholder for iframe 8</p>
+                    </div>
+                </div>
+
+                <!-- Presentation 9 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <div class="aspect-w-16 aspect-h-9">
+                        <img src="/api/placeholder/800/450" alt="Presentation 9" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-4">
+                        <p class="text-sm text-gray-500">Placeholder for iframe 9</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Simple JavaScript for mobile menu toggle -->
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
